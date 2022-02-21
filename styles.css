@@ -1,0 +1,9 @@
+@import url("https://swift-ui.netlify.app/components/swift.css");
+@import url("/utils/footer/footer.css");
+@import url("/utils/navigation/navigation.css");
+@import url("/pages/home/home.css");
+
+:root {
+  --category-background-color: #f9fafa;
+  --login-subheader-color: #5f5f5f;
+}

@@ -1,0 +1,19 @@
+.navbar {
+  padding: 1.5rem;
+  background-color: var(--secondary-color);
+}
+.navigation a {
+  color: var(--secondary-font-color);
+}
+.logo a {
+  color: var(--secondary-font-color);
+}
+.search-bar {
+  width: 40%;
+}
+.search-input {
+  padding: 1rem;
+}
+span.site-name {
+  color: var(--primary-color);
+}

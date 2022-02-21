@@ -1,0 +1,21 @@
+footer {
+  background-color: var(--secondary-color);
+  padding: 3.5rem 0;
+  text-align: center;
+  color: var(--secondary-font-color);
+}
+footer h4 {
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
+}
+footer span {
+  color: var(--primary-color);
+}
+.social-media a {
+  color: var(--secondary-font-color);
+  padding: 0 1.5rem;
+  font-size: 2rem;
+}
+.social-media a:hover {
+  color: var(--primary-color);
+}

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apex Furniture | Cart</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="cart.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <nav class="navbar">
+      <div class="logo font-weight-black align-items-center h2">
+        <a
+          class="display-flex font-weight-black align-items-center h2"
+          href="/index.html"
+        >
+          <span class="site-name">Apex &nbsp;</span><span>Furniture</span>
+        </a>
+      </div>
+      <div class="search-bar">
+        <input
+          class="search-input"
+          placeholder="What are you looking for?"
+          type="text"
+        />
+        <span class="search-icon">
+          <i class="fa fa-search"></i>
+        </span>
+      </div>
+      <div class="navigation font-weight-semibold">
+        <a class="h3" id="login" href="#"
+          ><i class="fa fa-user-circle-o"></i
+        ></a>
+        <a class="h3" href="/pages/wishlist/wishlist.html"
+          ><i class="fa fa-heart"></i
+        ></a>
+        <a class="h3" href="/pages/cart/cart.html"
+          ><i class="fa fa-shopping-cart"></i
+        ></a>
+      </div>
+    </nav>
+    <main class="cart-container">
+      <div
+        class="h2 progress-steps display-flex justify-content-center align-items-center font-weight-regular"
+      >
+        <span class="cart selected">1. Cart </span>
+        <span class="step-arrow selected">></span>
+        <span class="address">2. Address </span>
+        <span class="step-arrow">></span>
+        <span class="payment">3. Payment </span>
+      </div>
+      <div
+        class="cart-container-main display-flex justify-content-space-between"
+      >
+        <section class="manage-items">
+          <div class="card-horizontal card-box-shadow">
+            <div class="card-image pad-1">
+              <img
+                class="responsive-image"
+                src="/assests/images/product_image.jpg"
+                alt="product_image"
+              />
+            </div>
+            <div class="card-body pad-1 h5">
+              <h3 class="product-heading font-weight-semibold">Gaming Chair</h3>
+              <p class="product-sub-heading h6 margin-bottom-1">Sold by Ikea</p>
+              <p class="product-pricing">
+                <b>₹12000</b>
+                <span class="strike-through font-weight-regular">₹1200</span>
+                <span class="discount-percentage font-weight-regular"
+                  >10% off</span
+                >
+              </p>
+              <div class="quantity-section display-flex align-items-center">
+                <button class="btn-qty-remove">-</button>
+                <div class="qty-value">1</div>
+                <button class="btn-qty-add">+</button>
+              </div>
+              <div class="card-cta margin-top-1">
+                <a class="btn btn-outline-danger" href="#" role="button"
+                  >Remove</a
+                >
+                <a class="btn" href="#" role="button">Move to Wishlist</a>
+              </div>
+            </div>
+          </div>
+          <div class="card-horizontal card-box-shadow">
+            <div class="card-image pad-1">
+              <img
+                class="responsive-image"
+                src="/assests/images/product_image.jpg"
+                alt="product_image"
+              />
+            </div>
+            <div class="card-body pad-1 h5">
+              <h3 class="product-heading font-weight-semibold">Gaming Chair</h3>
+              <p class="product-sub-heading h6 margin-bottom-1">Sold by Ikea</p>
+              <p class="product-pricing">
+                <b>₹12000</b>
+                <span class="strike-through font-weight-regular">₹1200</span>
+                <span class="discount-percentage font-weight-regular"
+                  >10% off</span
+                >
+              </p>
+              <div class="quantity-section display-flex align-items-center">
+                <button class="btn-qty-remove">-</button>
+                <div class="qty-value">1</div>
+                <button class="btn-qty-add">+</button>
+              </div>
+              <div class="card-cta margin-top-1">
+                <a class="btn btn-outline-danger" href="#" role="button"
+                  >Remove</a
+                >
+                <a class="btn" href="#" role="button">Move to Wishlist</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="manage-pricing display-flex card-box-shadow">
+          <div
+            class="coupon-section display-flex justify-content-space-between align-items-center"
+          >
+            <p class="h5"><i class="fa fa-tag"></i>&nbsp; Have a coupon?</p>
+            <a class="h6 btn btn-outline-secondary" role="button">Apply</a>
+          </div>
+          <div class="filter-divider"></div>
+          <h5 class="text-align-center">PRICE DETAILS</h5>
+          <div class="filter-divider"></div>
+          <div
+            class="coupon-section display-flex justify-content-space-between align-items-center font-weight-medium h5"
+          >
+            <p>Cart Total</p>
+            <p>₹13200</p>
+          </div>
+          <div
+            class="coupon-section display-flex justify-content-space-between align-items-center font-weight-medium h5"
+          >
+            <p>Discounts</p>
+            <p>-₹1200</p>
+          </div>
+          <div
+            class="coupon-section display-flex justify-content-space-between align-items-center font-weight-medium h5"
+          >
+            <p>Coupon Discount</p>
+            <p>-₹0</p>
+          </div>
+          <div
+            class="coupon-section display-flex justify-content-space-between align-items-center font-weight-medium h5"
+          >
+            <p>Delivery Charges</p>
+            <p>Free</p>
+          </div>
+          <div class="filter-divider"></div>
+          <div
+            class="coupon-section display-flex justify-content-space-between align-items-center font-weight-semibold h5"
+          >
+            <p>Total Payable Amount</p>
+            <p>₹12000</p>
+          </div>
+          <div class="filter-divider"></div>
+          <div
+            class="coupon-section display-flex justify-content-space-between align-items-center font-weight-semibold h5"
+          >
+            <button class="btn btn-outline-primary">Continue Shopping</button>
+            <button class="btn">Checkout</button>
+          </div>
+        </section>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer>
+      <h4>Made with <span>&lt;/&gt;</span> by Varun Mittal</h4>
+      <div class="social-media">
+        <a href="https://github.com/varun1233" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://twitter.com/VarunMittal1233" target="_blank"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/varunmittal1233/" target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/d7aea2aee7.js"
+    crossorigin="anonymous"
+  ></script>
+</html>

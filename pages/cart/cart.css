@@ -1,0 +1,88 @@
+.cart-container {
+  padding: 2rem;
+  min-height: 100vh;
+  background-color: var(--cart-background);
+}
+.progress-steps {
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+  gap: 3rem;
+}
+.cart,
+.address,
+.payment,
+.step-arrow {
+  color: var(--filter-divider-color);
+  cursor: pointer;
+}
+.progress-steps .selected {
+  color: var(--primary-color);
+}
+.cart-container-main {
+  gap: 1rem;
+  flex-wrap: wrap;
+  width: 100rem;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.manage-items {
+  max-width: 60%;
+  width: 100%;
+}
+.card-horizontal {
+  max-width: 100%;
+  margin-bottom: 2rem;
+  background: var(--color-white);
+}
+.card-horizontal .card-image {
+  max-width: 25%;
+  width: 100%;
+}
+.card-horizontal .card-body {
+  max-width: 75%;
+  width: 100%;
+}
+.quantity-section {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  justify-content: flex-start;
+  gap: 1.5rem;
+}
+.btn-qty-remove,
+.btn-qty-add {
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  background: none;
+  border: 1px solid var(--quantity-border);
+  text-align: center;
+  cursor: pointer;
+}
+.qty-value {
+  border: 1px solid var(--quantity-border);
+  padding: 3px 8px;
+}
+.manage-pricing {
+  max-width: 35%;
+  width: 100%;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  border: 1px solid var(--primary-background-color);
+  border-radius: 5px;
+  height: fit-content;
+  background: var(--color-white);
+}
+.coupon-section {
+  padding: 5px 0;
+}
+.filter-divider {
+  background-color: var(--filter-divider-color);
+  width: 100%;
+  border: none;
+  height: 0.5px;
+  margin: 1rem 0 1rem 0;
+}
+.btn-outline-primary {
+  color: var(--primary-color);
+  border-color: var(--primary-color);
+}

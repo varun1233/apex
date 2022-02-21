@@ -3,6 +3,7 @@
 @import url("/utils/navigation/navigation.css");
 @import url("/pages/home/home.css");
 @import url("/pages/products-listing/products.css");
+@import url("/pages/wishlist/wishlist.css");
 
 :root {
   --category-background-color: #f9fafa;

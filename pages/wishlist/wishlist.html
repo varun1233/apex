@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Apex Furniture | Products</title>
+    <title>Apex Furniture | Wishlist</title>
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
@@ -39,117 +39,10 @@
       </div>
     </nav>
 
-    <!-- Product List -->
-    <div class="product-list-wrapper display-flex">
-      <section class="product-filters">
-        <div class="product-filters-heading">
-          <h4 class="font-weight-semibold">FILTERS</h4>
-          <a class="h5 font-weight-regular clear-all-cta">CLEAR ALL</a>
-        </div>
-        <div class="filter-divider"></div>
-        <div class="product-filter-type">
-          <p class="filter-type-heading font-weight-black">Price</p>
-          <label class="price-range">
-            <span>500</span>
-            <span>2000</span>
-            <span>4000+</span>
-          </label>
-          <input type="range" class="slider" min="500" max="4000" />
-        </div>
-        <div class="filter-divider"></div>
-        <div class="product-filter-type">
-          <p class="filter-type-heading font-weight-black">Sort</p>
-          <ul class="list-style-none">
-            <li>
-              <label class="form-label font-weight-medium">
-                <input class="form-field" id="LTH" type="radio" />
-                Price: Low to High
-              </label>
-            </li>
-            <li>
-              <label class="form-label font-weight-medium">
-                <input class="form-field" id="HTL" type="radio" />
-                Price: High to Low
-              </label>
-            </li>
-            <li>
-              <label class="form-label font-weight-medium">
-                <input class="form-field" id="newArrival" type="radio" />
-                New Arrival
-              </label>
-            </li>
-            <li>
-              <label class="form-label font-weight-medium">
-                <input class="form-field" id="discount" type="radio" />
-                Discount
-              </label>
-            </li>
-          </ul>
-        </div>
-        <div class="filter-divider"></div>
-        <div class="product-filter-type">
-          <p class="filter-type-heading font-weight-black">Category</p>
-          <ul class="list-style-none">
-            <li>
-              <label class="form-label font-weight-medium">
-                <input class="form-field" type="checkbox" />
-                Sofas
-              </label>
-            </li>
-            <li>
-              <label class="form-label font-weight-medium">
-                <input class="form-field" type="checkbox" />
-                Beds
-              </label>
-            </li>
-            <li>
-              <label class="form-label font-weight-medium">
-                <input class="form-field" type="checkbox" />
-                Dinning
-              </label>
-            </li>
-            <li>
-              <label class="form-label font-weight-medium">
-                <input class="form-field" type="checkbox" />
-                Chairs
-              </label>
-            </li>
-          </ul>
-        </div>
-        <div class="filter-divider"></div>
-        <div class="product-filter-type">
-          <p class="filter-type-heading font-weight-black">Rating</p>
-          <ul class="list-style-none">
-            <li>
-              <label class="form-label font-weight-medium">
-                <input class="form-field" type="radio" />
-                4 Stars & above
-              </label>
-            </li>
-            <li>
-              <label class="form-label font-weight-medium">
-                <input class="form-field" type="radio" />
-                3 Stars & above
-              </label>
-            </li>
-            <li>
-              <label class="form-label font-weight-medium">
-                <input class="form-field" type="radio" />
-                2 Stars & above
-              </label>
-            </li>
-            <li>
-              <label class="form-label font-weight-medium">
-                <input class="form-field" type="radio" />
-                1 Stars & above
-              </label>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <section class="product-list">
-        <p class="font-weight-bold">Showing 1-6 of 100 results</p>
-        <div class="product-list-row">
+    <main>
+      <section class="wishlist-container">
+        <h2 class="page-title text-align-center">My Wishlist</h2>
+        <div class="wishlist-row">
           <div class="card-vertical">
             <div class="card-image">
               <img
@@ -157,41 +50,6 @@
                 src="/assests/images/product_image.jpg"
                 alt="product_image"
               />
-            </div>
-            <div class="card-body pad-1 h5">
-              <h3 class="product-heading font-weight-semibold margin-bottom-1">
-                Gaming Chair
-                <span class="card-icon">
-                  <i class="fas fa-heart"></i>
-                </span>
-              </h3>
-              <p class="product-description font-weight-regular">
-                Gaming Chair Adjustable Back. Red, Black, DIY(Do-It-Yourself)
-              </p>
-              <p class="product-pricing">
-                <b>₹12000</b>
-                <span class="strike-through font-weight-regular">₹1200</span>
-                <span class="discount-percentage font-weight-regular"
-                  >10% off</span
-                >
-              </p>
-              <div class="card-cta margin-top-1">
-                <a class="btn" href="#" role="button"
-                  ><span class="btn-icon-text"
-                    ><i class="fas fa-shopping-cart"></i></span
-                  >Add to cart</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="card-vertical">
-            <div class="card-image">
-              <img
-                class="responsive-image"
-                src="/assests/images/product_image.jpg"
-                alt="product_image"
-              />
-              <span class="card-badge h5 font-weight-semibold">Trending</span>
             </div>
             <div class="card-body pad-1 h5">
               <h3 class="product-heading font-weight-semibold margin-bottom-1">
@@ -253,8 +111,6 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="product-list-row">
           <div class="card-vertical">
             <div class="card-image">
               <img
@@ -262,43 +118,6 @@
                 src="/assests/images/product_image.jpg"
                 alt="product_image"
               />
-            </div>
-            <div class="card-body pad-1 h5">
-              <h3 class="product-heading font-weight-semibold margin-bottom-1">
-                Gaming Chair
-                <span class="card-icon">
-                  <i class="fas fa-heart"></i>
-                </span>
-              </h3>
-              <p class="product-description font-weight-regular">
-                Gaming Chair Adjustable Back. Red, Black, DIY(Do-It-Yourself)
-              </p>
-              <p class="product-pricing">
-                <b>₹12000</b>
-                <span class="strike-through font-weight-regular">₹1200</span>
-                <span class="discount-percentage font-weight-regular"
-                  >10% off</span
-                >
-              </p>
-              <div class="card-cta margin-top-1">
-                <a class="btn" href="#" role="button"
-                  ><span class="btn-icon-text"
-                    ><i class="fas fa-shopping-cart"></i></span
-                  >Add to cart</a
-                >
-              </div>
-            </div>
-          </div>
-          <div class="card-vertical">
-            <div class="card-image">
-              <img
-                class="responsive-image"
-                src="/assests/images/product_image.jpg"
-                alt="product_image"
-              />
-              <span class="card-badge h5 font-weight-semibold"
-                >New Arrival</span
-              >
             </div>
             <div class="card-body pad-1 h5">
               <h3 class="product-heading font-weight-semibold margin-bottom-1">
@@ -362,8 +181,7 @@
           </div>
         </div>
       </section>
-    </div>
-
+    </main>
     <!-- Footer -->
     <footer>
       <h4>Made with <span>&lt;/&gt;</span> by Varun Mittal</h4>

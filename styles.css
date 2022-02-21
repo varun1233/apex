@@ -2,8 +2,10 @@
 @import url("/utils/footer/footer.css");
 @import url("/utils/navigation/navigation.css");
 @import url("/pages/home/home.css");
+@import url("/pages/products-listing/products.css");
 
 :root {
   --category-background-color: #f9fafa;
   --login-subheader-color: #5f5f5f;
+  --filter-divider-color: #c9c9c9;
 }

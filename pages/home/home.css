@@ -144,7 +144,7 @@
 }
 .form-heading:after {
   content: "";
-  border-bottom: 1px solid #ed7745;
+  border-bottom: 1px solid var(--form-heading-border);
   width: 5rem;
   display: block;
   padding-top: 5px;
